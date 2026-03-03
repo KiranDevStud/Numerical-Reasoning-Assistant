@@ -1,0 +1,12 @@
+langchain
+langchain-google-genai
+langchain-community
+chromadb
+pandas
+pyarrow
+streamlit
+python-dotenv
+numexpr
+langchain-experimental
+langchain-chroma
+python-pptx

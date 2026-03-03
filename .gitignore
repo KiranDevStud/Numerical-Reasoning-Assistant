@@ -1,0 +1,18 @@
+# Python environment
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Sensitive information
+.env
+
+# Project specific: Vector Database (Generated)
+chroma_db/
+
+# Project specific: Large dataset files (Local only)
+gsm8k/
+
+# Operating system files
+.DS_Store
+Thumbs.db
