@@ -20,8 +20,8 @@ Installation
 
 2. **Set up a virtual environment**:
    ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   python -m venv .venv
+   .\.venv\Scripts\Activate.ps1  #windows
    ```
 
 3. **Install dependencies**:
@@ -38,6 +38,7 @@ Installation
 Data Ingestion
 
 Before running the app, you need to populate the vector database with the GSM8K dataset.
+You can downlaod the GSM8K dataset from [here](https://huggingface.co/datasets/openai/gsm8k/blob/main/main/test-00000-of-00001.parquet).
 
 1. Ensure the dataset (`train-00000-of-00001.parquet`) is available at the path specified in `data_ingestion.py`.
 2. Run the ingestion script:
